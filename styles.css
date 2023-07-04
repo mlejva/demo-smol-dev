@@ -1,28 +1,24 @@
-@import 'tailwind.css';
-
 body {
-    background-color: #121212;
-    color: #ffffff;
-}
-
-#root {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: Arial, sans-serif;
 }
 
 #bio {
-    margin-top: 2rem;
+    margin: 2em auto;
+    max-width: 600px;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.name-field {
-    font-size: 2rem;
+#bio .name {
+    font-size: 2em;
     font-weight: bold;
 }
 
-.job-field {
-    font-size: 1.5rem;
-    color: #888;
+#bio .job {
+    font-size: 1.2em;
+    color: #777;
 }

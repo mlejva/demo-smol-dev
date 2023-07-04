@@ -1,26 +1,19 @@
-Shared Dependencies:
-
 1. HTML Elements: 
-   - "root" (id for the main div in index.html)
-   - "bio" (id for the bio section in bio.html)
-   - "name" (id for the name field in bio.html)
-   - "job" (id for the job field in bio.html)
+   - "bio" (id for the bio section in index.html and bio.html)
+   - "name" (class for the name section in bio.html)
+   - "job" (class for the job section in bio.html)
 
-2. CSS Classes:
-   - "dark-theme" (class for applying dark theme styles in styles.css and tailwind.css)
-   - "bio-section" (class for styling the bio section in styles.css and tailwind.css)
-   - "name-field" (class for styling the name field in styles.css and tailwind.css)
-   - "job-field" (class for styling the job field in styles.css and tailwind.css)
+2. CSS Files:
+   - "styles.css" (linked in index.html and bio.html for general styling)
+   - "tailwind.css" (linked in index.html and bio.html for Tailwind CSS styling)
 
 3. Data:
-   - "Vasek Mlejnsky" (name data shared between index.html and bio.html)
-   - "co-founder at e2b" (job data shared between index.html and bio.html)
+   - "Vasek Mlejnsky" (used in bio.html)
+   - "co-founder at e2b" (used in bio.html)
 
-4. External Libraries:
-   - Tailwind CSS (used in styles.css and tailwind.css for styling)
+4. Color Scheme:
+   - "dark" (used in styles.css and tailwind.css for the dark theme)
+   - "light" (used in styles.css and tailwind.css for the light theme)
 
-5. CSS Files:
-   - styles.css (linked in index.html and bio.html for styling)
-   - tailwind.css (linked in index.html and bio.html for styling)
-
-Note: There are no exported variables, message names, or function names as the tech stack does not include any JavaScript or backend language.
+5. Design Descriptors:
+   - "clean" and "simple" (used in styles.css and tailwind.css for styling guidelines)

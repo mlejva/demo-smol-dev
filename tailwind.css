@@ -3,37 +3,17 @@
 @import 'tailwindcss/utilities';
 
 body {
-  @apply bg-gray-800 text-white;
-}
-
-#root {
-  @apply p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4;
+  @apply bg-gray-200 text-gray-800;
 }
 
 #bio {
-  @apply text-lg font-semibold;
+  @apply p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4;
 }
 
-#name {
-  @apply text-2xl font-bold;
+.name {
+  @apply text-xl font-semibold;
 }
 
-#job {
-  @apply text-xl;
-}
-
-.dark-theme {
-  @apply bg-gray-900 text-gray-100;
-}
-
-.bio-section {
-  @apply p-4 border-b border-gray-200;
-}
-
-.name-field {
-  @apply text-2xl font-bold text-gray-900;
-}
-
-.job-field {
-  @apply text-xl text-gray-600;
+.job {
+  @apply text-md;
 }
