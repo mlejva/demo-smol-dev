@@ -1,0 +1,28 @@
+@import 'tailwind.css';
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#bio {
+    margin-top: 2rem;
+}
+
+.name-field {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.job-field {
+    font-size: 1.5rem;
+    color: #888;
+}
